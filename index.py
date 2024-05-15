@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
-import openpyxl
+import openpyxl # type: ignore
 
 def valider(event=None):
     # Récupérer les valeurs saisies dans le formulaire
